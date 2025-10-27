@@ -25,6 +25,7 @@ body,
 html {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    background-color: beige;
 }
 
 /* Make all images responsive - they scale down to fit their container */
@@ -35,12 +36,17 @@ img {
 /* Large heading size for main title */
 h1 {
     font-size: 3em;
+    font-family: Cambria;
 }
 
+h2 {
+    font-weight: 100;
+    font-family: cambria;
+}
 /* Medium heading size with gray color for section headers */
 h3 {
     font-size: 1.75em;
-    color: gray;
+    color: rgb(76, 75, 75);
 }
 
 /* Small heading style for individual tip titles - uppercase and centered */
@@ -90,7 +96,7 @@ figure {
 /* Style image captions with smaller gray text */
 .head-photo {
     font-size: 1em;
-    color: gray;
+    color: rgb(50, 48, 48);
     margin-left: 15px;
 }
 
@@ -106,6 +112,13 @@ figure {
     margin: auto;
 }
 
+#sources {
+    line-height: 0.5;
+}
+
+#name {
+    font-weight: 900;
+}
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
@@ -128,6 +141,7 @@ figure {
         max-width: 900px;
         /* margin: 0 auto; Centers the heading */
     }
+    
 
     /* Container for the three-column layout - centers the columns as a group */
     .icon-container {
